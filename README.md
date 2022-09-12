@@ -1,4 +1,4 @@
-# RTS-Bus-Tracker.io
+# rtsbustracker
 This is a bus tracker for RTS between the Transit Station and Rochester General Hospital
 
 Description of the project:
