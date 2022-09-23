@@ -1,9 +1,6 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Project Title</title>
-    </head>
     <body>
         <h1>rtsbustracker</h1>
       <h2>This is a bus tracker for RTS between the Transit Station and Rochester General Hospital</h2>
