@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h1>rtsbustracker</h1>
+        <h1>RTS Bus Tracker</h1>
       <h2>This is a bus tracker for RTS between the Transit Station and Rochester General Hospital</h2>
         <h2><span style='font-size:50px;'>&#10024;</span>Description:</h2>
       <p>The goal of this project was to map out a real time bus tracker. I chose to show the bus stops between the Rochester Transportation Service (RTS) transit station and Rochester General Hospital in Rochester NY. I made a few key changes from the original example shown in class. The first is that I added styles to my button to make it stand out more and look prettier. Instead of gray background with black text, it is now a chartrusse color with black text with a font size of 20px. Additionally, I changed the location from the original Cambridge, MA to Rochester, NY.</p>
