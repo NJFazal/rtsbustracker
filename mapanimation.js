@@ -1,4 +1,7 @@
-let map = new mapboxgl.Map({
+mapboxgl.accessToken =
+'pk.eyJ1Ijoic29mdGV4cGVyaW1lbnQiLCJhIjoiY2tjMngyZm9rMDFvajJzczJ3aWo0bnh6aiJ9.Bc_qK9Xf8SFBXkFM_x2gpg'
+
+  let map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v11',
       center: [-77.608241, 43.158973],
@@ -21,9 +24,6 @@ const busStops = [
     [-77.586924, 43.193831],
 ];
 
-mapboxgl.accessToken =
-'pk.eyJ1Ijoic29mdGV4cGVyaW1lbnQiLCJhIjoiY2tjMngyZm9rMDFvajJzczJ3aWo0bnh6aiJ9.Bc_qK9Xf8SFBXkFM_x2gpg'
-
 let counter = 0;
 function move(){
   setTimeout(()=>{
@@ -33,3 +33,7 @@ function move(){
     move();
   },1000); 
 }
+
+
+
+ 
