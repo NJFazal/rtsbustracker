@@ -1,3 +1,4 @@
+<script>
 mapboxgl.accessToken =
 'pk.eyJ1Ijoic29mdGV4cGVyaW1lbnQiLCJhIjoiY2tjMngyZm9rMDFvajJzczJ3aWo0bnh6aiJ9.Bc_qK9Xf8SFBXkFM_x2gpg'
 
@@ -33,3 +34,4 @@ function move(){
     move();
   },1000); 
 }
+</script>
