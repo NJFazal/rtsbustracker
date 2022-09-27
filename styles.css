@@ -28,8 +28,6 @@
           cursor: pointer;
         }
         </style>
-    <button class="button" onclick="move()">
-      Show stops for between Transit Station and Hospital
-    </button>
+    
   </div>
 </div>
