@@ -1,19 +1,19 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-#map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
+<style>
+  body { margin: 0; padding: 0; }
+  #map { position: absolute; top: 0; bottom: 0; width: 100%; }
 
 .map-overlay {
   position: absolute;
   left: 0;
   padding: 10px;
 }
+ 
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div class="map-overlay top">
     <style>
         .button {
           background-color: hwb(71 2% 2%);
