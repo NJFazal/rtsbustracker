@@ -6,28 +6,16 @@
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
-  
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
 <body>
-<div id="map"></div>
-<div class="map-overlay top">
-    <style>
-        .button {
-          background-color: hwb(71 2% 2%);
-          border: none;
-          color: black;
-          padding: 15px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 20px;
-          margin: 4px 2px;
-          cursor: pointer;
-        }
-        </style>
-    <button class="button" onclick="move()">
-      Show stops between Transit Station and Hospital
-    </button>
-  </div>
-  <script src="./mapanimation.js"></script>
-  </body>
-  </html>
+    <div id="map"></div>
+        <div class="map-overlay top">
+        <button class="button" onclick="move()">
+          Show stops between Transit Station and Hospital
+        </button>
+      </div>
+<script src="./mapanimation.js"></script>
+</body>
+</html>
